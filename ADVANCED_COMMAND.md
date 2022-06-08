@@ -19,11 +19,12 @@ git checkout -b <branch_name>
 git checkout <branch_name>
 git switch <branch_name>
 
+## Delete branch
+
+git branch -d <branch_name>
+
 # Merge
 
-<<<<<<< HEAD
 ## Merge with fast_forward
 
-=======
->>>>>>> updates
 git merge <branch_name> -> (merge <branch_name> to current branch)
