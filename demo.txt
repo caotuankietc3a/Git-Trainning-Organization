@@ -1,7 +1,4 @@
 Demo file
 
 updates
-<<<<<<< HEAD
-=======
 sdfasda
->>>>>>> updates
