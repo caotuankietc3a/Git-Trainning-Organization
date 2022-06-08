@@ -1,3 +1,7 @@
 Demo file
 
+<<<<<<< HEAD
 ok master
+=======
+very-bad
+>>>>>>> very-bad
