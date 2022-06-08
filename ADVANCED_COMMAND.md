@@ -21,6 +21,9 @@ git switch <branch_name>
 
 # Merge
 
+<<<<<<< HEAD
 ## Merge with fast_forward
 
+=======
+>>>>>>> updates
 git merge <branch_name> -> (merge <branch_name> to current branch)
