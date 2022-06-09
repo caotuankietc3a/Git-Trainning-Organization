@@ -25,6 +25,20 @@ git branch -d <branch_name>
 
 # Merge
 
-## Merge with fast_forward
-
 git merge <branch_name> -> (merge <branch_name> to current branch)
+
+# Fix conflicts when merging
+
+## Check where conficts were
+
+git log --merge
+
+## Cancel~Abort current merge
+
+git merge --abort
+
+## Fix merging conflicts
+
+git commit -am "Resloved conflicts"
+
+(git add and git commit to resolve)

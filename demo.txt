@@ -1,13 +1,1 @@
 Demo file
-
-<<<<<<< HEAD
-ok master
-=======
-very-bad
-<<<<<<< HEAD
->>>>>>> very-bad
-=======
-sdfadf
-sdfadfa
-sdfasdfasfdadfas
->>>>>>> very-bad
