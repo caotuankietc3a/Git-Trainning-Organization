@@ -1,2 +1,6 @@
 Demo file
+<<<<<<< Updated upstream
 ok ban oi
+=======
+sdfasdfasf
+>>>>>>> Stashed changes

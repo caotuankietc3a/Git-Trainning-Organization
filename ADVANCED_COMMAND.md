@@ -41,4 +41,22 @@ git merge --abort
 
 git commit -am "Resloved conflicts"
 
-(git add and git commit to resolve)
+(git add and git commit to resolve conflicts)
+
+# Tag
+
+## List tags
+
+git tag -l
+
+## Annotated tag
+
+git tag -a <tagname> -m "tag commit"
+
+## Lightweight tag
+
+git tag <tagname>
+
+## Delete tag
+
+git tag -d <tagname>
