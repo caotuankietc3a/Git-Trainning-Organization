@@ -60,3 +60,13 @@ git tag <tagname>
 ## Delete tag
 
 git tag -d <tagname>
+
+# Stash
+
+## List Stashes
+
+git stash list
+
+## Apply and Drop a stash
+
+git stash pop <stash_name>
