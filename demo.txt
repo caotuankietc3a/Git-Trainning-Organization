@@ -4,4 +4,8 @@ ok ban oi
 =======
 sdfasdfasf
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
 ggggggggggggggggggggggggg
+=======
+ddddddddddddddddddddddddd
+>>>>>>> Stashed changes
