@@ -1,11 +1,2 @@
 Demo file
-<<<<<<< Updated upstream
-ok ban oi
-=======
-sdfasdfasf
->>>>>>> Stashed changes
-<<<<<<< Updated upstream
-ggggggggggggggggggggggggg
-=======
-ddddddddddddddddddddddddd
->>>>>>> Stashed changes
+ok ban oi #hhhhhhhhhhhhhhhhhhhhhhhheeeeeeeeeeeeeeee
