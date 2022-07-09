@@ -1,6 +1,0 @@
-Demo file
-<<<<<<< HEAD
-# Change a bit in demo.txt ddddddddddddddddddddd
-=======
-ok ban oi
->>>>>>> refs/remotes/origin/main
