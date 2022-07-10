@@ -9,6 +9,7 @@ git diff
 ## List Branches
 
 git branch
+git branch -a (remote and local)
 
 ## Create new branch and switch
 
@@ -70,3 +71,8 @@ git stash list
 ## Apply and Drop a stash
 
 git stash pop <stash_name>
+
+## Fetch
+
+git fetch
+git fetch -p (Before fetching, remove any remote-tracking references that no longer exist on the remote)
