@@ -20,9 +20,30 @@ git checkout -b <branch_name>
 git checkout <branch_name>
 git switch <branch_name>
 
+## Create branch
+
+### Create branch from remote to local
+
+1.go to github and create branch
+2.git checkout <branch_name>
+
+### Create branch from local to remote
+
+1.git checkout -b <branch_name>
+2.git push -u origin <branch_name>
+
 ## Delete branch
 
-git branch -d <branch_name>
+### Delete branch from remote to local
+
+1.go to github and delete branch
+2.git branch -d <branch_name>
+3.git fetch -p (Before fetching, remove any remote-tracking references that no longer exist on the remote)
+
+### Delete branch from local to remote
+
+1.git branch -d <branch_name>
+2.git push -u origin :<branch_name>
 
 # Merge
 
@@ -75,4 +96,4 @@ git stash pop <stash_name>
 ## Fetch
 
 git fetch
-git fetch -p (Before fetching, remove any remote-tracking references that no longer exist on the remote)
+git fetch --all
