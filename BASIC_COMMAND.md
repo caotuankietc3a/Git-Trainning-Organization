@@ -58,5 +58,3 @@ git add -u .
 ## Add changes from all tracked files and untracked files
 
 git add -A .
-
-# Git pull with rebase from remote github
