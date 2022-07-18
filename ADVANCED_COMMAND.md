@@ -101,5 +101,7 @@ git fetch --all
 # Git pull with rebase
 
 (use when git commit some changes in local branch and commit some changes from remote branch)
+
 git pull --rebase (a method of combining your local unpublished changes with the latest published changes on your remote)
+
 git push -u origin main
