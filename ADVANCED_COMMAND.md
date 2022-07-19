@@ -71,17 +71,53 @@ git commit -am "Resloved conflicts"
 
 git tag -l
 
+git tag
+
+## Show tags and related info
+
+git show <tag_name>
+
 ## Annotated tag
 
-git tag -a <tagname> -m "tag commit"
+git tag -a <tag_name> -m "tag commit"
+
+git tag -a <tag_name> -m "tag commit" <commit_id>
 
 ## Lightweight tag
 
-git tag <tagname>
+git tag <tag_name>
+
+git tag <tag_name> <branch_name>
 
 ## Delete tag
 
-git tag -d <tagname>
+### Delete tag from remote to local
+
+1.go to github and delete tag
+
+2.git fetch -p
+
+3.git tag -d <tag_name>
+
+### Delete tag from local to remote
+
+1.git tag -d <tag_name>
+
+2.git push origin :<tag_name>
+
+## Push tags to remote branch
+
+git push origin <tag_name>
+
+git push --tags (all rest tags)
+
+## Update tag
+
+### Update tag from local to remote
+
+git tag -f <tag_name> <commit_id>
+
+git push -f origin <tag_name>
 
 # Stash
 
