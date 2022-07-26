@@ -37,12 +37,15 @@ git switch <branch_name>
 ### Delete branch from remote to local
 
 1.go to github and delete branch
+
 2.git branch -d <branch_name>
+
 3.git fetch -p (Before fetching, remove any remote-tracking references that no longer exist on the remote)
 
 ### Delete branch from local to remote
 
 1.git branch -d <branch_name>
+
 2.git push -u origin :<branch_name>
 
 # Merge
@@ -132,6 +135,7 @@ git stash pop <stash_name>
 ## Fetch
 
 git fetch
+
 git fetch --all
 
 # Git pull with rebase
@@ -141,3 +145,9 @@ git fetch --all
 git pull --rebase (a method of combining your local unpublished changes with the latest published changes on your remote)
 
 git push -u origin main
+
+# Synchronize forked directory
+
+git remote add <remote_name> <forked_url>
+
+git pull <remote_name> <branch_name>
