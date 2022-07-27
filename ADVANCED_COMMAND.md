@@ -151,3 +151,9 @@ git push -u origin main
 git remote add <remote_name> <forked_url>
 
 git pull <remote_name> <branch_name>
+
+# Attach commit to closed issue
+
+git add <file_name>
+
+git commit -m "commit_message, close #<number_of_closed_issue>"
